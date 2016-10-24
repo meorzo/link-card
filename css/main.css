@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  background-color: #f0eee8;
+}
+
+.link-card h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+}
+
+.link-card:hover {
+
+}
+
+.link-card {
+  text-decoration: none;
+  color: #512200;
+}
+
+body {
+  background-color: #dcd4cd;
+  padding: 1rem;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+}
+
+div {
+  text-align: center;
+}
+
+dd {
+  font-style: italic;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
