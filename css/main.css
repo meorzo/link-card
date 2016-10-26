@@ -8,17 +8,24 @@ html {
 .link-card h2 {
   font-family: Dosis, sans-serif;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.link-card p {
+  margin: 0;
 }
 
 .link-card {
   text-decoration: none;
   color: #512200;
   background-color: #dcd4cd;
-  padding: 1rem;
+  padding: 1em;
   border: 3px solid #9a816d;
   border-radius: 8px;
   border-width: 3px;
   display: block;
+  margin: 0;
 }
 
 .link-card:hover {
@@ -30,6 +37,8 @@ dl {
   overflow: hidden;
   padding: 1rem;
   margin: 0;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
 }
 
 dt {
@@ -51,6 +60,7 @@ dd {
   display: inline-block;
   font-size: 1.125rem;
   padding: .4em .75em .5em;
+  margin: 1em 0 0;
   background-color: #785439;
   border-radius: 8px;
   border-width: 3px;
@@ -63,6 +73,10 @@ dd {
 
 .btn:hover {
   background-color: #512200;
+}
+
+body {
+  padding: 0;
 }
 
 div {
